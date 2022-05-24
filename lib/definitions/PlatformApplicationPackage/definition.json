@@ -1,0 +1,205 @@
+{
+  "ObjectDefinition": {
+    "ObjectType": "PlatformApplicationPackage",
+    "Properties": [
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.EnterpriseID",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ID",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ApplicationId",
+        "DataType": "Guid",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 64,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ETVer",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DeveloperVersion",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 8,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsActive",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CreatedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.CreatedBy",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ModifiedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ModifiedBy",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ResourceSpecification",
+        "DataType": "ResourceSpecification",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SigningKey",
+        "DataType": "PublicKeyManagement",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsUpgrade",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client",
+        "DataType": "ClientID",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerProperties",
+        "DataType": "APIProperty[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ID",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Owner",
+        "DataType": "Owner",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CorrelationID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectState",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPlatformObject",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "ObjectDefinition": {
+    "ObjectType": "DataExtensionField",
+    "Properties": [
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 333,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Name",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 128,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DefaultValue",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 2147483647,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "MaxLength",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsRequired",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Ordinal",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPrimaryKey",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "FieldType",
+        "DataType": "DataExtensionFieldType",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 20,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CreatedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ModifiedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Scale",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ID",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DataExtension.CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 200,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "StorageType",
+        "DataType": "DataExtensionFieldStorageType",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DataExtension",
+        "DataType": "DataExtension",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DataType",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ValueType",
+        "DataType": "SoapType",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PropertyType",
+        "DataType": "PropertyType",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsCreatable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsUpdatable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsRetrievable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsQueryable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsFilterable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPartnerProperty",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsAccountProperty",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerMap",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "AttributeMaps",
+        "DataType": "AttributeMap[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Markups",
+        "DataType": "APIProperty[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Precision",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Label",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Description",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "MinLength",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "MinValue",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "MaxValue",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsViewable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsEditable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsNillable",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsRestrictedPicklist",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PicklistItems",
+        "DataType": "PicklistItem[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsSendTime",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DisplayOrder",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "References",
+        "DataType": "APIObject[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "RelationshipName",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Status",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsContextSpecific",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client",
+        "DataType": "ClientID",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerProperties",
+        "DataType": "APIProperty[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ID",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Owner",
+        "DataType": "Owner",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CorrelationID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectState",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPlatformObject",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      }
+    ]
+  }
+}

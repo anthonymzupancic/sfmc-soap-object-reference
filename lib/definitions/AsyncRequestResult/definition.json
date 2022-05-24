@@ -1,0 +1,154 @@
+{
+  "ObjectDefinition": {
+    "ObjectType": "AsyncRequestResult",
+    "Properties": [
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ID",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Status",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 32,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CompleteDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CallStatus",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 20,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CallMessage",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 2147483647,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CreatedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ModifiedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client",
+        "DataType": "ClientID",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerProperties",
+        "DataType": "APIProperty[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ID",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Owner",
+        "DataType": "Owner",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CorrelationID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectState",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPlatformObject",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      }
+    ]
+  }
+}

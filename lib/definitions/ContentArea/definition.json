@@ -1,0 +1,274 @@
+{
+  "ObjectDefinition": {
+    "ObjectType": "ContentArea",
+    "Properties": [
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "RowObjectID",
+        "DataType": "Guid",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectID",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ID",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 36,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ID",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ModifiedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CreatedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CategoryID",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Name",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 50,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Layout",
+        "DataType": "LayoutType",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 11,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsDynamicContent",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Content",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 2147483647,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsSurvey",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsBlank",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Key",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "BackgroundColor",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "BorderColor",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "BorderWidth",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Cellpadding",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Cellspacing",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Width",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "FontFamily",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "HasFontSize",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsLocked",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client",
+        "DataType": "ClientID",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerKey",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerProperties",
+        "DataType": "APIProperty[]",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Owner",
+        "DataType": "Owner",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CorrelationID",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectState",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPlatformObject",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      }
+    ]
+  }
+}

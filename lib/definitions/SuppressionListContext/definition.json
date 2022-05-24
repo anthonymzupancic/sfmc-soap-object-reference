@@ -1,0 +1,276 @@
+{
+  "ObjectDefinition": {
+    "ObjectType": "SuppressionListContext",
+    "Properties": [
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Definition.ObjectID",
+        "DataType": "Guid",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Definition.Name",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 128,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Definition.CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 200,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Definition.Category",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Definition.Description",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 2147483647,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Context",
+        "DataType": "SuppressionListContextEnum",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SendClassification.ObjectID",
+        "DataType": "Guid",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Send.ID",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SenderProfile.ObjectID",
+        "DataType": "Guid",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SendClassificationType",
+        "DataType": "SendClassificationTypeEnum",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.CreatedBy",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CreatedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ModifiedBy",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ModifiedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ID",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.EnterpriseID",
+        "DataType": "Int64",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "AppliesToAllSends",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SendClassification",
+        "DataType": "SendClassification",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Send",
+        "DataType": "Send",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Definition",
+        "DataType": "SuppressionListDefinition",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SenderProfile",
+        "DataType": "SenderProfile",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client",
+        "DataType": "ClientID",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerProperties",
+        "DataType": "APIProperty[]",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ID",
+        "DataType": "Int32",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Owner",
+        "DataType": "Owner",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CorrelationID",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectState",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPlatformObject",
+        "DataType": "Boolean",
+        "IsUpdatable": false,
+        "IsRetrievable": false
+      }
+    ]
+  }
+}

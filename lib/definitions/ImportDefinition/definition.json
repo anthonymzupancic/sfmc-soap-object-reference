@@ -1,0 +1,475 @@
+{
+  "ObjectDefinition": {
+    "ObjectType": "ImportDefinition",
+    "Properties": [
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectID",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerKey",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 64,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client.ClientID1",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Name",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 64,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CustomerKey",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 36,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Description",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 2147483647,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "FileSpec",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 200,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "AllowErrors",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "FieldMappingType",
+        "DataType": "ImportDefinitionFieldMappingType",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "FileType",
+        "DataType": "FileType",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "UpdateType",
+        "DataType": "ImportDefinitionUpdateType",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "MaxFileAge",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "MaxFileAgeScheduleOffset",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "MaxImportFrequency",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DestinationObject.ID",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DestinationObject.ObjectID",
+        "DataType": "Guid",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Notification.ResponseType",
+        "DataType": "String",
+        "IsUpdatable": false,
+        "IsRetrievable": true,
+        "MaxLength": 5,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Notification.ResponseAddress",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 100,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "RetrieveFileTransferLocation.ObjectID",
+        "DataType": "Guid",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Delimiter",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 25,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "HeaderLines",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": true
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "EndOfLineRepresentation",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 50,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "NullRepresentation",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 50,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "StandardQuotedStrings",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DateFormattingLocale.LocaleCode",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": true,
+        "MaxLength": 5,
+        "IsRequired": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DestinationObject",
+        "DataType": "APIObject",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "FieldMaps",
+        "DataType": "FieldMap[]",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Notification",
+        "DataType": "AsyncResponse",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "RetrieveFileTransferLocation",
+        "DataType": "FileTransferLocation",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SubscriberImportType",
+        "DataType": "ImportDefinitionSubscriberImportType",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "AutoGenerateDestination",
+        "DataType": "ImportDefinitionAutoGenerateDestination",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ControlColumn",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ControlColumnDefaultAction",
+        "DataType": "ImportDefinitionColumnBasedActionType",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ControlColumnActions",
+        "DataType": "ImportDefinitionColumnBasedAction[]",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Filter",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DateFormattingLocale",
+        "DataType": "Locale",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DeleteFile",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SourceObject",
+        "DataType": "APIObject",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "DestinationType",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SubscriptionDefinitionId",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "EncodingCodePage",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "SmsMemberSharedShortCodeId",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "HasMultipleFiles",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "InteractionObjectID",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Keyword",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Client",
+        "DataType": "ClientID",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "PartnerProperties",
+        "DataType": "APIProperty[]",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CreatedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ModifiedDate",
+        "DataType": "DateTime",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ID",
+        "DataType": "Int32",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "Owner",
+        "DataType": "Owner",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "CorrelationID",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "ObjectState",
+        "DataType": "String",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      },
+      {
+        "PartnerKey": "",
+        "ObjectID": "",
+        "Name": "IsPlatformObject",
+        "DataType": "Boolean",
+        "IsUpdatable": true,
+        "IsRetrievable": false
+      }
+    ]
+  }
+}
