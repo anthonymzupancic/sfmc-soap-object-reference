@@ -1,0 +1,13 @@
+[
+  "ID",
+  "SendID",
+  "PartnerKey",
+  "Client.ID",
+  "Client.PartnerClientKey",
+  "Link.ID",
+  "Link.PartnerKey",
+  "Link.TotalClicks",
+  "Link.UniqueClicks",
+  "Link.URL",
+  "Link.Alias"
+]

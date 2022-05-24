@@ -1,0 +1,11 @@
+[
+  "Client.ID",
+  "CreatedDate",
+  "ModifiedDate",
+  "CustomerKey",
+  "IsDefaultKeyword",
+  "MoreChoicesPrompt",
+  "DefaultHelpMessage",
+  "MenuText",
+  "FriendlyName"
+]

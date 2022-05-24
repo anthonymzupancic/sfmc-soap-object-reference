@@ -1,0 +1,16 @@
+[
+  "ObjectID",
+  "CustomerKey",
+  "Name",
+  "Description",
+  "IsPrivate",
+  "IsSystemDefined",
+  "Client.EnterpriseID",
+  "Client.ID",
+  "Client.CreatedBy",
+  "CreatedDate",
+  "Client.ModifiedBy",
+  "ModifiedDate",
+  "PermissionSets",
+  "Permissions"
+]

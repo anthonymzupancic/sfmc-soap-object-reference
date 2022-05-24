@@ -1,0 +1,19 @@
+[
+  "ObjectID",
+  "Client.EnterpriseID",
+  "Client.ID",
+  "CustomerKey",
+  "PublisherId",
+  "Name",
+  "ApplicationType",
+  "StorageType",
+  "ETVer",
+  "DeveloperVersion",
+  "Description",
+  "ApplicationStoragePath",
+  "IsActive",
+  "CreatedDate",
+  "Client.CreatedBy",
+  "ModifiedDate",
+  "Client.ModifiedBy"
+]

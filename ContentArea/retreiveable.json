@@ -1,0 +1,17 @@
+[
+  "RowObjectID",
+  "ObjectID",
+  "ID",
+  "CustomerKey",
+  "Client.ID",
+  "ModifiedDate",
+  "CreatedDate",
+  "CategoryID",
+  "Name",
+  "Layout",
+  "IsDynamicContent",
+  "Content",
+  "IsSurvey",
+  "IsBlank",
+  "Key"
+]

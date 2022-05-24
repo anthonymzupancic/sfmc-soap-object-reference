@@ -1,0 +1,15 @@
+[
+  "ObjectID",
+  "DefinitionObjectID",
+  "Client.ID",
+  "Name",
+  "CustomerKey",
+  "Description",
+  "DestinationObjectID",
+  "DestinationTypeID",
+  "SourceObjectID",
+  "SourceTypeID",
+  "StatusID",
+  "CreatedDate",
+  "ModifiedDate"
+]

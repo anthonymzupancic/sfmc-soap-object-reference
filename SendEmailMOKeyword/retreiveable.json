@@ -1,0 +1,12 @@
+[
+  "Client.ID",
+  "CreatedDate",
+  "ModifiedDate",
+  "CustomerKey",
+  "NextState.CustomerKey",
+  "IsDefaultKeyword",
+  "SuccessMessage",
+  "MissingEmailMessage",
+  "FailureMessage",
+  "TriggeredSend.CustomerKey"
+]

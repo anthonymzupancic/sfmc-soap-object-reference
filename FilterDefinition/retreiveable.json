@@ -1,0 +1,21 @@
+[
+  "ObjectID",
+  "Client.ID",
+  "CategoryID",
+  "Client.ClientPartnerKey",
+  "Name",
+  "CustomerKey",
+  "Description",
+  "CreatedDate",
+  "ModifiedDate",
+  "DataFilter",
+  "DataSourceType",
+  "DataSourceClassName",
+  "DataSource.ID",
+  "DataSource.ObjectID",
+  "DataSource.Name",
+  "DataSource.ListName",
+  "DataSource.CustomerKey",
+  "DataSource.CreatedDate",
+  "DataSource.ModifiedDate"
+]

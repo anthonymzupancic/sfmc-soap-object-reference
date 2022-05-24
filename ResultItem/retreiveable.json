@@ -1,0 +1,16 @@
+[
+  "AsyncAPIRequestQueueID",
+  "RequestID",
+  "ConversationID",
+  "CorrelationID",
+  "Client.ID",
+  "CreatedDate",
+  "StatusCode",
+  "StatusMessage",
+  "OrdinalID",
+  "ErrorCode",
+  "RequestType",
+  "RequestObjectType",
+  "ResultType",
+  "Client.PartnerClientKey"
+]

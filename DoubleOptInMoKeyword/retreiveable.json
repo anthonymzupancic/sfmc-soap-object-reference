@@ -1,0 +1,17 @@
+[
+  "DoubleOptInMOKeyword.Client.ID",
+  "DoubleOptInMOKeyword.CreatedDate",
+  "DoubleOptInMOKeyword.ModifiedDate",
+  "DoubleOptInMOKeyword.CustomerKey",
+  "DoubleOptInMOKeyword.IsDefaultKeyword",
+  "DoubleOptInMOKeyword.DefaultPublication.ID",
+  "DoubleOptInMOKeyword.InvalidPublicationMessage",
+  "DoubleOptInMOKeyword.InvalidResponseMessage",
+  "DoubleOptInMOKeyword.MissingPublicationMessage",
+  "DoubleOptInMOKeyword.NeedPublicationMessage",
+  "DoubleOptInMOKeyword.PromptMessage",
+  "DoubleOptInMOKeyword.SuccessMessage",
+  "DoubleOptInMOKeyword.UnexpectedErrorMessage",
+  "DoubleOptInMOKeyword.ValidPublications",
+  "DoubleOptInMOKeyword.ValidResponses"
+]

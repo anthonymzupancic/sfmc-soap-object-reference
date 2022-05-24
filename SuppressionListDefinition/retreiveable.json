@@ -1,0 +1,14 @@
+[
+  "ObjectID",
+  "CustomerKey",
+  "Name",
+  "Description",
+  "Client.CreatedBy",
+  "CreatedDate",
+  "Client.ModifiedBy",
+  "ModifiedDate",
+  "Category",
+  "Client.ID",
+  "Client.EnterpriseID",
+  "SubscriberCount"
+]

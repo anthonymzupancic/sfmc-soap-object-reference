@@ -1,0 +1,21 @@
+[
+  "ObjectID",
+  "CustomerKey",
+  "Client.ID",
+  "ExternalReference",
+  "Name",
+  "Description",
+  "Type",
+  "Status",
+  "StatusMessage",
+  "RequestParameterDetail",
+  "ResponseControlManifest",
+  "FileName",
+  "LastPullDate",
+  "ScheduledDate",
+  "IsActive",
+  "CreatedDate",
+  "ModifiedDate",
+  "Client.CreatedBy",
+  "Client.ModifiedBy"
+]

@@ -1,0 +1,11 @@
+[
+  "Client.ID",
+  "CreatedDate",
+  "ModifiedDate",
+  "NextMOKeyword.CustomerKey",
+  "CustomerKey",
+  "ObjectID",
+  "IsDefaultKeyword",
+  "Message",
+  "ScriptErrorMessage"
+]

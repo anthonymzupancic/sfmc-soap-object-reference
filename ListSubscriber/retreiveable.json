@@ -1,0 +1,12 @@
+[
+  "ObjectID",
+  "SubscriberKey",
+  "CreatedDate",
+  "ModifiedDate",
+  "Client.ID",
+  "Client.PartnerClientKey",
+  "ListID",
+  "Status",
+  "UnsubscribedDate",
+  "ID"
+]

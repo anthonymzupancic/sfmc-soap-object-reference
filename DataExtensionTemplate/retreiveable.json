@@ -1,0 +1,20 @@
+[
+  "ObjectID",
+  "PartnerKey",
+  "CustomerKey",
+  "Name",
+  "CreatedDate",
+  "ModifiedDate",
+  "Client.ID",
+  "Description",
+  "IsSendable",
+  "IsTestable",
+  "SendableCustomObjectField",
+  "SendableSubscriberField",
+  "DataRetentionPeriodLength",
+  "DataRetentionPeriodUnitOfMeasure",
+  "RowBasedRetention",
+  "ResetRetentionPeriodOnImport",
+  "DeleteAtEndOfRetentionPeriod",
+  "RetainUntil"
+]

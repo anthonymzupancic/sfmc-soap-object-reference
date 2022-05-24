@@ -1,0 +1,20 @@
+[
+  "ObjectID",
+  "Definition.ObjectID",
+  "Definition.Name",
+  "Definition.CustomerKey",
+  "Definition.Category",
+  "Definition.Description",
+  "Context",
+  "SendClassification.ObjectID",
+  "Send.ID",
+  "SenderProfile.ObjectID",
+  "SendClassificationType",
+  "Client.CreatedBy",
+  "CreatedDate",
+  "Client.ModifiedBy",
+  "ModifiedDate",
+  "Client.ID",
+  "Client.EnterpriseID",
+  "AppliesToAllSends"
+]

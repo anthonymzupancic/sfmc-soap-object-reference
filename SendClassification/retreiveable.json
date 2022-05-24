@@ -1,0 +1,17 @@
+[
+  "ObjectID",
+  "SendClassificationType",
+  "Name",
+  "Description",
+  "CustomerKey",
+  "SenderProfile.CustomerKey",
+  "SenderProfile.ObjectID",
+  "DeliveryProfile.CustomerKey",
+  "DeliveryProfile.ObjectID",
+  "ArchiveEmail",
+  "Client.ID",
+  "Client.PartnerClientKey",
+  "PartnerKey",
+  "CreatedDate",
+  "ModifiedDate"
+]

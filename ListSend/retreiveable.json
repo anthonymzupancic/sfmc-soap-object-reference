@@ -1,0 +1,23 @@
+[
+  "ID",
+  "PartnerKey",
+  "Client.ID",
+  "SendID",
+  "List.ID",
+  "List.ListName",
+  "Duplicates",
+  "InvalidAddresses",
+  "ExistingUndeliverables",
+  "ExistingUnsubscribes",
+  "HardBounces",
+  "SoftBounces",
+  "OtherBounces",
+  "ForwardedEmails",
+  "UniqueClicks",
+  "UniqueOpens",
+  "NumberSent",
+  "NumberDelivered",
+  "Unsubscribes",
+  "MissingAddresses",
+  "PreviewURL"
+]

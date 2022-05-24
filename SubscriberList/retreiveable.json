@@ -1,0 +1,17 @@
+[
+  "ListSubID",
+  "ID",
+  "PartnerKey",
+  "CreatedDate",
+  "Subscriber.UnsubscribedDate",
+  "Client.ID",
+  "Status",
+  "List.ID",
+  "List.ListName",
+  "Subscriber.Status",
+  "Subscriber.CreatedDate",
+  "Subscriber.ID",
+  "Subscriber.EmailAddress",
+  "Subscriber.SubscriberKey",
+  "Subscriber.PartnerKey"
+]

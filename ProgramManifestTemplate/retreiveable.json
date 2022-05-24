@@ -1,0 +1,13 @@
+[
+  "ObjectID",
+  "CustomerKey",
+  "Client.ID",
+  "Name",
+  "Description",
+  "Type",
+  "OperationType",
+  "Content",
+  "IsActive",
+  "CreatedDate",
+  "ModifiedDate"
+]

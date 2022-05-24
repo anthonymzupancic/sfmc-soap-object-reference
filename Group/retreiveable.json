@@ -1,0 +1,12 @@
+[
+  "ID",
+  "Name",
+  "Client.ID",
+  "ObjectID",
+  "PartnerKey",
+  "CreatedDate",
+  "Description",
+  "Category",
+  "ModifiedDate",
+  "Client.PartnerClientKey"
+]

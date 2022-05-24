@@ -1,0 +1,11 @@
+[
+  "Client.ID",
+  "CreatedDate",
+  "ModifiedDate",
+  "CustomerKey",
+  "NextMOKeyword.CustomerKey",
+  "IsDefaultKeyword",
+  "AllUnsubSuccessMessage",
+  "InvalidPublicationMessage",
+  "SingleUnsubSuccessMessage"
+]

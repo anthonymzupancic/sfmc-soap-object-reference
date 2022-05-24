@@ -1,0 +1,18 @@
+[
+  "ID",
+  "ObjectID",
+  "PartnerKey",
+  "CreatedDate",
+  "ModifiedDate",
+  "Client.ID",
+  "SendID",
+  "SubscriberKey",
+  "EventDate",
+  "EventType",
+  "TriggeredSendDefinitionObjectID",
+  "BatchID",
+  "List.ID",
+  "List.Type",
+  "List.ListClassification",
+  "IsMasterUnsubscribed"
+]

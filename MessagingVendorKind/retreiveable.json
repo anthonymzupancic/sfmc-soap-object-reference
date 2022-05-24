@@ -1,0 +1,10 @@
+[
+  "ID",
+  "Vendor",
+  "Kind",
+  "IsUsernameRequired",
+  "IsPasswordRequired",
+  "IsProfileRequired",
+  "CreatedDate",
+  "ModifiedDate"
+]

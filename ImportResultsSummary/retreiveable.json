@@ -1,0 +1,17 @@
+[
+  "ObjectID",
+  "ID",
+  "Client.ID",
+  "ImportDefinitionCustomerKey",
+  "TaskResultID",
+  "ImportStatus",
+  "StartDate",
+  "EndDate",
+  "DestinationID",
+  "NumberSuccessful",
+  "NumberDuplicated",
+  "NumberRestricted",
+  "NumberErrors",
+  "TotalRows",
+  "ImportType"
+]

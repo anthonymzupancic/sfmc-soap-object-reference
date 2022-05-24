@@ -1,0 +1,12 @@
+[
+  "ID",
+  "PartnerKey",
+  "CreatedDate",
+  "Client.ID",
+  "Name",
+  "Description",
+  "IsActive",
+  "OrdinalID",
+  "IPAddress",
+  "Client.PartnerClientKey"
+]

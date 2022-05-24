@@ -1,0 +1,14 @@
+[
+  "RequestID",
+  "ConversationID",
+  "Client.ID",
+  "CreatedDate",
+  "OverallStatusCode",
+  "StatusCode",
+  "StatusMessage",
+  "ErrorCode",
+  "RequestType",
+  "ResultType",
+  "ResultDetailXML",
+  "Client.PartnerClientKey"
+]

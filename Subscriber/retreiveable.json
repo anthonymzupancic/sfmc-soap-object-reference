@@ -1,0 +1,12 @@
+[
+  "ID",
+  "PartnerKey",
+  "CreatedDate",
+  "Client.ID",
+  "Client.PartnerClientKey",
+  "EmailAddress",
+  "SubscriberKey",
+  "UnsubscribedDate",
+  "Status",
+  "EmailTypePreference"
+]

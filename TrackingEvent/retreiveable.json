@@ -1,0 +1,12 @@
+[
+  "EventDate",
+  "SendID",
+  "SubscriberKey",
+  "Client.ID",
+  "BatchID",
+  "TriggeredSendDefinitionObjectID",
+  "ListID",
+  "PartnerKey",
+  "EventType",
+  "SubscriberID"
+]

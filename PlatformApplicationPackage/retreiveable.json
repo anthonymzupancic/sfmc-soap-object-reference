@@ -1,0 +1,14 @@
+[
+  "Client.EnterpriseID",
+  "Client.ID",
+  "ObjectID",
+  "ApplicationId",
+  "CustomerKey",
+  "ETVer",
+  "DeveloperVersion",
+  "IsActive",
+  "CreatedDate",
+  "Client.CreatedBy",
+  "ModifiedDate",
+  "Client.ModifiedBy"
+]
