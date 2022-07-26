@@ -1,6 +1,6 @@
 {
   "name": "sfmc-soap-object-reference",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get retrievable columns for SFMC soap objects",
   "main": "lib/index.js",
   "scripts": {
